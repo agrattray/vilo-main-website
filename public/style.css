@@ -1,0 +1,83 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #000;
+  color: white;
+}
+
+.site-header .logo {
+  height: 60px;
+}
+
+.site-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.site-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.cta, .content-tips, .services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cta img, .content-tips img, .services img {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.booking {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f2f2f2;
+}
+
+.booking h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.book-btn {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background: #0056b3;
+}
