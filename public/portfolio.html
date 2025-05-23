@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Vilo Web Development</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
+<header class="site-header">
+  <img src="images/Vilo_compressed.png" alt="Vilo Logo" class="logo" />
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -19,7 +20,32 @@
   </nav>
 </header>
 
-<main><h2>Our Work</h2><ul><li>Freddy’s Barbershop</li><li>Purely Cakes</li><li>Artesian Steps</li></ul></main>
-<footer><p>&copy; 2025 Vilo Web Development. All rights reserved.</p></footer>
+
+<section class="portfolio">
+  <h2>Our Work</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item">
+      <div class="thumb"></div>
+      <h3>Freddy’s Barbershop</h3>
+      <p>Custom-designed barbershop website built for speed and booking ease.</p>
+    </div>
+    <div class="portfolio-item">
+      <div class="thumb"></div>
+      <h3>Purely Cakes</h3>
+      <p>Delicious design for a local bakery. Clean layout, sweet branding.</p>
+    </div>
+    <div class="portfolio-item">
+      <div class="thumb"></div>
+      <h3>Artesian Steps</h3>
+      <p>Elegant e-commerce design for handcrafted footwear brand.</p>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>&copy; 2025 Vilo Web Development. All rights reserved.</p>
+</footer>
+
 </body>
 </html>

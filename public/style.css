@@ -1,7 +1,24 @@
 
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-nav ul { display: flex; justify-content: center; list-style: none; padding: 10px; background: #000; }
-nav ul li { margin: 0 15px; }
-nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #222; }
+.site-header { display: flex; justify-content: space-between; align-items: center; padding: 10px 30px; background-color: #000; color: white; }
+.site-header .logo { height: 60px; }
+.site-header nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }
+.site-header nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+
+.hero-img, .cta img, .content-tips img, .service img { width: 100%; max-width: 900px; display: block; margin: 0 auto; border-radius: 10px; }
+
+section { padding: 40px 20px; text-align: center; }
+
+.about, .services, .portfolio, .contact { background: #f8f9fa; }
+.about p, .services p, .portfolio p { max-width: 800px; margin: 10px auto; font-size: 1.1rem; line-height: 1.6; }
+
+.services-grid, .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; max-width: 1100px; margin: 0 auto; }
+.service, .portfolio-item { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.service img, .portfolio-item img { max-height: 180px; object-fit: contain; border-radius: 8px; }
+
+.contact-form { max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+.contact-form input, .contact-form textarea { padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; width: 100%; }
+.contact-form button { background: #007BFF; color: white; padding: 12px; border: none; font-size: 1rem; border-radius: 6px; cursor: pointer; }
+.contact-form button:hover { background: #0056b3; }
+
 footer { background: #000; color: white; text-align: center; padding: 20px; }
-main { padding: 20px; max-width: 800px; margin: auto; }

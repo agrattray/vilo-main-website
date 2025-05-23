@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Vilo Web Development</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
+<header class="site-header">
+  <img src="images/Vilo_compressed.png" alt="Vilo Logo" class="logo" />
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -19,13 +20,21 @@
   </nav>
 </header>
 
-<main><h2>Contact Us</h2>
-<form action="#" method="POST">
-<input type="text" name="name" placeholder="Your Name" required />
-<input type="email" name="email" placeholder="Your Email" required />
-<textarea name="message" placeholder="Your Message"></textarea>
-<button type="submit">Send</button>
-</form></main>
-<footer><p>&copy; 2025 Vilo Web Development. All rights reserved.</p></footer>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <form action="#" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+<footer>
+  <p>&copy; 2025 Vilo Web Development. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
